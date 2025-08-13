@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner img{
+    margin: 0;
+    background-size: cover;
+    width: 100vw;
+}
+header{
+    margin: 2%;
+    display: flex;
+    background-color: rgba(200, 200, 200, 0.8);
+    padding: 3%;
+    border-left: 4px solid rgba(2, 2, 2, 0.95);
+}
+article{
+    width: 55%;
+    text-align: justify;
+    color: rgba(2, 2, 2, 0.95)
+}
+h1{
+    font-size: 2rem;
+}
+.intro{
+    font-size: 1.5rem;
+    margin-top: 2%;
+}
+header img{
+    width: 35%;
+    margin-left: 5%;
+}
+.cuenta-regresiva{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    background-color: #041032;
+    color: rgba(220, 220, 220, 1);
+    padding: 3%;
+}
+form{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(200, 200, 200, 0.8);
+}
+form h2{
+    font-size: 1.8 rem;
+}
+.formulario{
+    font-size: 1.5rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+form input{
+    font-size: 1.5rem;
+    background-color: #04103210;
+    padding: 5px;
+    border: none;
+    border-bottom: solid #041032 2px;
+}
+.faq-question {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 1em;
+    text-align: left;
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question:hover {
+    background-color: #f8f8f8;
+}
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+      padding: 10px;
+
+}
+
+.faq-answer.visible {
+    display: block;
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+.arrow.rotated {
+    transform: rotate(180deg);
+}
+
